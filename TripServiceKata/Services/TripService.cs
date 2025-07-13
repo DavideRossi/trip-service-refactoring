@@ -33,12 +33,12 @@ namespace TripServiceKata.Services
             }
         }
 
-        protected User GetLoggedUser()
+        protected virtual User GetLoggedUser()
         {
             return UserSession.GetInstance().GetLoggedUser();
         }
 
-        protected List<Trip> GetTrips(User user)
+        protected virtual List<Trip> GetTrips(User user)
         {
             return TripDAO.FindTripsByUser(user);
         }
