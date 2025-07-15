@@ -1,6 +1,6 @@
 # Trip service refactoring exercise
 
-This is a of the well-known [Trip Service Kata from Sandro Mancuso]
+This is a version of the well-known [Trip Service Kata from Sandro Mancuso]
 (https://github.com/sandromancuso/trip-service-kata)
 with a few updates and fixes for modern C#.
 
